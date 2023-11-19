@@ -11,6 +11,7 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.assignment1_1202057.R;
+import com.example.assignment1_1202057.activity_tools.TaskAdapter;
 import com.example.assignment1_1202057.classes.Task;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -51,8 +52,7 @@ public class MainActivity4_doneTask extends AppCompatActivity{
                 }
             }
 
-            ArrayAdapter<Task> listAdapter = new ArrayAdapter<Task>(this,
-                    android.R.layout.simple_list_item_1, al_DoneTask);
+            TaskAdapter listAdapter = new TaskAdapter(this, al_DoneTask);
 
 
             listViewDoneTask.setAdapter(listAdapter);
