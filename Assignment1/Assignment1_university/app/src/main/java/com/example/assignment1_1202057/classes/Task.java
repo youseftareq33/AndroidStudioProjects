@@ -70,12 +70,8 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task{" +
-                "title='" + title + '\'' +
-                ", description='" + description + '\'' +
-                ", date='" + date + '\'' +
-                ", time='" + time + '\'' +
-                ", status='" + status + '\'' +
-                '}';
+        return "                                     "+title+"\n\n"+
+                " Task Due to: "+date+"  At  "+time+"\n"+
+                " Status: "+status;
     }
 }
