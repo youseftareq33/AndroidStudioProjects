@@ -13,7 +13,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:text="Please fill all the data !!!"
-        android:textColor="#FF0000"
+        android:textColor="#E60101"
         android:textSize="25dp"
         android:textStyle="" />
 

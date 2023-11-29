@@ -61,7 +61,7 @@ public class MainActivity2_addNewTask extends AppCompatActivity {
 
         // Initialize views
         textViewErrorMessage=findViewById(R.id.textViewErrorMessage);
-        textViewErrorMessage.setVisibility(View.GONE);
+        textViewErrorMessage.setVisibility(View.INVISIBLE);
 
         editTextTaskTitle=findViewById(R.id.editTextTaskTitle);
 

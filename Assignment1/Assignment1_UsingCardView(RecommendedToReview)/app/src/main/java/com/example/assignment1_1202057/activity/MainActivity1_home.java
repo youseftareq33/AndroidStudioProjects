@@ -42,7 +42,6 @@ public class MainActivity1_home extends AppCompatActivity {
         buttonViewDoneTask=findViewById(R.id.buttonViewDoneTask);
 
         listViewDueTask = findViewById(R.id.listViewDueTask);
-
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         String tasksString = prefs.getString("DATA", "");
 
@@ -64,6 +63,7 @@ public class MainActivity1_home extends AppCompatActivity {
             TaskAdapter listAdapter = new TaskAdapter(this, al_DueTask);
 
             listViewDueTask.setAdapter(listAdapter);
+
 
             AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
                 @Override

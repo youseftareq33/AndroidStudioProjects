@@ -63,7 +63,7 @@
         </activity>
 
         <!-- ============================================================ -->
-        <!-- fifth activity: Task -->
+        <!-- fifth activity: Due Task Details -->
         <activity
             android:name=".activity.MainActivity5_DueTaskDetails"
             android:exported="true" >
@@ -75,9 +75,21 @@
         </activity>
 
         <!-- ============================================================ -->
-        <!-- sixth activity: Task -->
+        <!-- sixth activity: Done Task Details -->
         <activity
             android:name=".activity.MainActivity6_DoneTaskDetails"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ============================================================ -->
+        <!-- seventh activity: Edit Task Successful -->
+        <activity
+            android:name=".activity.MainActivity7_editTaskSuccessful"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
